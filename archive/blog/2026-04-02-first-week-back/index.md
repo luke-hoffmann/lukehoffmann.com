@@ -1,8 +1,6 @@
 ---
-layout: college_post
 title: "First Week Back"
-blogTitle: "First Week Back"
-date: 2026-04-2
+date: 2026-04-02
 ---
 This post covers my first week back to Cal Poly after my winter quarter break.  
 
@@ -17,10 +15,10 @@ Lots of construction on campus, thats great to see. New faculty housing is built
 We got a zip car to do some things around town. We picked up my box that was mistakenly taken to Hawaii.   
 We started watching a TV show together. Got some good Mexican food (similar to Riviera Maya). I worked out this morning and Tyler ran. We are anticipating that people with still arriving tomorrow (Saturday). It was a good day!  
 
-Tyler and I went on a hike up to the P ![/assets/images/blog/first-week-back/IMG_3106.webp](/assets/images/blog/first-week-back/IMG_3106.webp)
-![/assets/images/blog/first-week-back/IMG_3097.webp](/assets/images/blog/first-week-back/IMG_3097.webp)
+Tyler and I went on a hike up to the P ![IMG_3106.webp](IMG_3106.webp)
+![IMG_3097.webp](IMG_3097.webp)
 We found a treasure hunt engraved in concrete
-![/assets/images/blog/first-week-back/IMG_3093.webp](/assets/images/blog/first-week-back/IMG_3093.webp)
+![IMG_3093.webp](IMG_3093.webp)
 **3/28 -**  
 Went on a 8 mile run. It was pretty warm out but i was able to get it done.  
 Tyler and I went to Woodstock pizza and shared an XL pizza.  
