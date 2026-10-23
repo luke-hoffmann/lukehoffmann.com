@@ -1,6 +1,7 @@
 ---
 title: Rotation of Shapes using Matrices
 stack: [JavaScript, p5.js]
+year: 2025
 published: false # was on the site earlier, removed in the April 2026 restructure
 ---
 ![cover.png](cover.png)

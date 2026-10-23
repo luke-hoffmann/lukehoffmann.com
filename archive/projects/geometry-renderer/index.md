@@ -2,6 +2,8 @@
 title: Geometry Renderer
 description: A geometry renderer of complex shapes with lighting and camera system
 stack: [JavaScript, p5.js]
+year: 2026
+library: https://github.com/luke-hoffmann/Geometry
 ---
 ![cover.png](cover.png)
 

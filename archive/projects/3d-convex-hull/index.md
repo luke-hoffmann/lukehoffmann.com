@@ -2,6 +2,8 @@
 title: 3D Convex Hull
 description: Visualization of how a 3D shape wraps around a group of points in space.
 stack: [JavaScript, p5.js]
+year: 2025 # algorithm working Feb 2025; rebuilt on the Geometry engine Apr 2026
+library: https://github.com/luke-hoffmann/Geometry
 ---
 ![cover.png](cover.png)
 

@@ -2,6 +2,7 @@
 title: Bird Flocking Visualization
 description: Simulation of birds moving together in a flock using simple movement rules.
 stack: [JavaScript, p5.js]
+year: 2025
 ---
 ![cover.png](cover.png)
 

@@ -2,6 +2,7 @@
 title: 2D Convex Hull
 description: Interactive demo showing how a boundary is formed around a set of points on a 2D plane.
 stack: [JavaScript, p5.js]
+year: 2025
 ---
 ![cover.png](cover.png)
 

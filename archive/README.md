@@ -38,10 +38,31 @@ provided, and loads the project's scripts plus `_shared/` exactly as the live
 site did at `795242f`. `rotating-cube-3d` comes from an earlier version of the
 site (before `66a34a6`).
 
-The `geometry` library is a compiled bundle (`index.global.js` for the
-browser, `index.js` as an ES module, `index.d.ts` for its API). The readable
-plain-JS version it replaced (`Vector`, `Triangle`, `Mesh`, `Light`, ...) is
-in history at `66a34a6^:assets/js/project-scripts/Geometry/`.
+The `geometry` and `colorhandler` files in `_shared/` are compiled bundles
+(`index.global.js` for the browser, `index.js` as an ES module, `index.d.ts`
+for the API). Their TypeScript source is in Luke's own public repos:
+[Geometry](https://github.com/luke-hoffmann/Geometry) (MIT; vectors, meshes,
+lighting, camera, physics, p5 renderer),
+[ColorHandler](https://github.com/luke-hoffmann/ColorHandler), and
+[UsefulFunction](https://github.com/luke-hoffmann/UsefulFunction).
+
+## Demo timeline (from git history)
+
+| When | What |
+|---|---|
+| by Jan 2025 | 2D convex hull, bird flocking, rotating shapes, radar mini map: already in the site's first commit (2025-01-22) |
+| Jan 2025 | Integral visualization (2025-01-28; never published) |
+| Feb 2025 | 3D convex hull algorithm working (2025-02-15); plain-JS geometry code written for it (back-face culling) |
+| Dec 2025 | Geometry code (~1,200 lines of JS) extracted into its own repo, converted to TypeScript, packaged for npm |
+| Feb–Apr 2026 | Geometry grows into a small 3D engine (camera, lighting, physics, renderer); 3D convex hull rebuilt on it; geometry renderer demo added (Apr 2026) |
+
+Exact build dates before Jan 2025 aren't in any repo.
+
+The Geometry repo has a workflow (`.github/workflows/push-to-repo.yml`) that
+pushes its build into this repo's `main` under the old repo name
+`luke-hoffmann.github.io`. It last succeeded 2025-12-27 and appears broken
+since; disable or replace it before the new site ships so it can't recreate
+`assets/js/lib/geometry/`.
 
 ## Recovering removed code
 
