@@ -14,3 +14,5 @@ His model described the flocking of birds in the following three different parts
 - **Cohesion** – Each bird will move towards the average position of its neighboring birds
 - **Separation** – Each bird will move away the average position of its neighboring birds
 - **Alignment** – Each bird will face in the direction of its neighboring birds
+
+**Interactive demo:** [`demo/index.html`](demo/index.html)

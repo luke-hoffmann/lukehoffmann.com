@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integral Visualization - demo</title>
+  <link rel="stylesheet" href="../../_shared/demo.css">
+</head>
+<body>
+  <h1>Integral Visualization</h1>
+  <div id="canvas-insertion-point"></div>
+  <div class="controls">
+    <label>dx <input type="range" id="dxSlider" min="0.01" max="1" value="0.5" step="0.01" oninput="updateVisualization()"></label>
+    <button type="button" onclick="changeVisualizedFunction('sin')"><math><mi>sin</mi><mo>(</mo><mi>x</mi><mo>)</mo></math></button>
+    <button type="button" onclick="changeVisualizedFunction('cos')"><math><mi>cos</mi><mo>(</mo><mi>x</mi><mo>)</mo></math></button>
+    <button type="button" onclick="changeVisualizedFunction('xCubed')"><math><msup><mi>x</mi><mn>3</mn></msup></math></button>
+    <button type="button" onclick="changeVisualizedFunction('oneOverFourX')"><math><mfrac><mn>1</mn><mn>4x</mn></mfrac></math></button>
+    <span id="riemann-selection">
+      <button type="button" onclick="setRiemannSide(true)">Left Riemann Sum</button>
+      <button type="button" onclick="setRiemannSide(false)">Right Riemann Sum</button>
+    </span>
+  </div>
+  <script src="../../_shared/p5.min.js"></script>
+  <script src="integral-visualization.js"></script>
+  <script src="../../_shared/canvasSetup.js"></script>
+</body>
+</html>

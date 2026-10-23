@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geometry Renderer - demo</title>
+  <link rel="stylesheet" href="../../_shared/demo.css">
+</head>
+<body>
+  <h1>Geometry Renderer</h1>
+  <div id="canvas-insertion-point"></div>
+  <div class="controls">
+    <button type="button" onclick="previousScene()">Previous</button>
+    <button type="button" id="play-button" onclick="startSimulation()"></button>
+    <button type="button" onclick="nextScene()">Next</button>
+  </div>
+  <script src="../../_shared/p5.min.js"></script>
+  <script src="../../_shared/colorhandler/index.global.js"></script>
+  <script src="../../_shared/geometry/index.global.js"></script>
+  <script src="../../_shared/geometry-bootstrap-shim.js"></script>
+  <script src="shape-renderer.js"></script>
+  <script src="../../_shared/canvasSetup.js"></script>
+</body>
+</html>

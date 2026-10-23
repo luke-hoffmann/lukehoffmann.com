@@ -12,3 +12,5 @@ Imagine a group of people standing together. Within this group, there will be pe
 Our brains can visualize this process, finding the outermost points or people, is obvious, but a computer doesn’t explicitly know how. When I first read about this challenge, the idea of it made sense. However, when I set out to tell the computer how to do this, I struggled.
 
 I first decided to implement this procedure in two dimensions. You can see that below. Mastering two dimensions, I decided to implement this in three dimensions. You can see that **[HERE](../3d-convex-hull/index.md)**.
+
+**Interactive demo:** [`demo/index.html`](demo/index.html)
